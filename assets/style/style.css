@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    background: #F9F9F9;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items:center; 
+    background: #FFFFFF; 
+}
+.navegacao {
+    width: 138px;
+    height: 24px;
+    justify-content: space-between;
+    display: flex;
+}
+#ferramentas {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+#logo {
+    display: flex;
+    width: 90px;
+    height: 20px;
+    flex-shrink: 0;
+    background: url(../img/logo.png);
+    background-size: contain;
+
+}
+.buscar {
+    display: flex;
+    width: 405;
+    height: 40;
+    margin: 0 auto;
+}
+#digitar-buscar {
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+#icone-buscar button {
+    width: 57px;
+    height: 42px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: url(../img/search-svg.svg) no-repeat;
+    background-position: 50% 50%;
+}
+.video-notificacao-perfil {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+#video {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background: url(../img/video.svg) no-repeat;
+    background-size: contain;
+}
+#notificacao {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background: url(../img/bell.svg) no-repeat;
+    background-size: contain;
+}
+#perfil {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background: url(../img/Avatar.svg) no-repeat;
+    background-size: contain;
+}
+.corpo {
+    margin-top: 28px;
+    margin-left: 75px;
+    display: flex;
+    width: 952;
+    height: 746;
+    flex-direction: row;
+    justify-content: initial;
+    gap: 16px;
+}
+.coluna-1 {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+iframe {
+    display: flex;
+    width: 952px; 
+    height: 537px;
+}
+h1 {
+    display: flex;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 952px;
+}
+.video-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+    width: 952px;
+}
+.canal-info{
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+.logo-dio{
+    display: flex;
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    background: url(../img/Channel_Avatar.svg);
+}
+.logo-comentario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-comentario-DIO {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.logo-comentario-inscritos{
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #C00;
+}
+.button-subscribe-inscreva-se {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.itens-video-icon {
+    display: flex;
+    gap: 50px;
+}
+.video-actions-icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.video-actions-icon-words {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.data{
+
+}
+.data-info {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.descricao {
+    display: flex;
+    width: 510px;
+}
+.descricao-info {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.outro{
+    display: flex;
+    align-content: space-between;
+    gap: 16px;
+}
+.capa {
+    display: flex;
+    width: 160px;
+    height: 90px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteudo-nome-font {
+    display: flex;
+    width: 196px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.conteudo-nome-canal-font {
+    width: 196px;
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.conteudo-visualizacoes {
+    width: 150px;
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
